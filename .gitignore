@@ -1,0 +1,25 @@
+# Market data: never commit real price files (see README, "Getting price data")
+*.csv
+# If you add a clearly synthetic sample or test file, allow it here:
+# !sample-data/*.csv
+# !tests/fixtures/*.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Python and Colab
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets and logs
+.env
+*.log
